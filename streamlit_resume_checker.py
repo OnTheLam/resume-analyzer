@@ -58,7 +58,7 @@ def get_gpt_feedback(resume_text, job_description):
 
 # Streamlit App
 def main():
-    st.title("ATS Resume Checker with GPT-4")
+    st.title("ATS Resume Analyzer with GPT-4o")
 
     st.write("""
     Upload your resume (PDF or DOCX), paste the job description, and click "Analyze Resume" to receive feedback on skill gaps, keyword optimization, and general improvements.
