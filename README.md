@@ -17,3 +17,33 @@ The **Resume Analyzer** is a web application built with **Streamlit** that allow
 
 - Python 3.7 or higher
 - OpenAI API Key
+- OpenAI API Key
+
+## Installation
+
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/OnTheLam/resume-analyzer.git
+   cd resume-analyzer
+   ```
+2. **Set up a virtual environment (optional but recommended):**
+    ```
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+3. **Install the required Python packages:**
+    ```
+    pip install -r requirements.txt
+    ```
+4. **Create a .env file in the project root directory to store your OpenAI API key:**
+    ```
+    touch .env   # On Windows, use echo.> .env
+    ```
+5. **Inside the .env file, add your OpenAI API key like this:**
+    ```
+    OPENAI_API_KEY="your-openai-api-key-here"
+    ```
+6. **Run the Streamlit app**
+    ```
+    streamlit run app.py
+    ```
