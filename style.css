@@ -1,0 +1,17 @@
+/* Desktop View */
+@media (min-width: 1200px) {
+    .block-container {
+        max-width: 95%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Mobile and Tablet View */
+@media (max-width: 768px) {
+    .block-container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

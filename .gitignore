@@ -1,9 +1,9 @@
 # Ignore Python compiled files
 __pycache__/
-*.py[cod]
+*.py[cod]/
 
 # Ignore virtual environment folder
-venv
+venv/
 .env
 
 # Ignore Jupyter Notebook checkpoints
