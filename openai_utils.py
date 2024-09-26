@@ -67,6 +67,7 @@ def generate_assistant_response(messages):
             model="gpt-4o",
             messages=messages,
             stream=True,
+            max_tokens=150
         )
         return response
     except openai.OpenAIError as e:
