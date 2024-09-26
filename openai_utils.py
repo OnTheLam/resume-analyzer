@@ -44,7 +44,7 @@ def get_gpt_feedback(resume_text, job_description):
 
     try:
         response = openai.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are an ATS resume analyzer."},
                 {"role": "user", "content": prompt}
@@ -64,7 +64,7 @@ def get_gpt_feedback(resume_text, job_description):
 def generate_assistant_response(messages):
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=messages,
             stream=True,
             max_tokens=150
